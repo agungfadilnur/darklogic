@@ -8,6 +8,9 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400&display=swap');
+
 body {
   background-color: #fff;
   color: #333;
@@ -140,18 +143,18 @@ span {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #fff;
+  background: #000033;
   position: fixed;
   left: 0;
   top: 0;
   right: 0;
-  height: 48px;
+  height: 90px;
   z-index: 3;
   transition: all 0.5s ease;
 }
 
 #header #logo {
-  padding: 6px 0 0 0;
+  margin-left: 1px;
 }
 
 #header #logo h1 {
@@ -175,8 +178,11 @@ span {
 }
 
 #header #logo img {
-  padding: 0;
-  margin: 0;
+  margin-left: 0px;
+  margin-right: 5px;
+  padding-left: 0px;
+  padding-top: 10px;
+  padding-bottom: 0px;
 }
 
 .scroll-header {
@@ -191,6 +197,7 @@ span {
   width: 100%;
   height: calc(100vh - 40px);
   background: url(../img/hero-bg.png) center bottom no-repeat;
+  background-color: #01013c;
   background-size: 100%;
   position: relative;
   margin-top: 40px;
@@ -205,7 +212,7 @@ span {
 #hero .hero-container {
   position: absolute;
   bottom: 0;
-  top: 0;
+  top: 120px;
   left: 0;
   right: 0;
   display: flex;
@@ -299,7 +306,7 @@ span {
 --------------------------------------------------------------*/
 /* Nav Menu Essentials */
 .nav-menu, .nav-menu * {
-  margin: 0;
+  margin-top: 6px;
   padding: 0;
   list-style: none;
 }
@@ -357,7 +364,7 @@ span {
 /* Nav Meu Container */
 #nav-menu-container {
   float: right;
-  margin: 0 0 0 0;
+  margin-top: 0px;
 }
 
 @media (max-width: 1024px) {
@@ -371,10 +378,10 @@ span {
   padding: 8px 8px;
   text-decoration: none;
   display: inline-block;
-  color: #555;
-  font-family: "Roboto", sans-serif;
+  color: white;
+  font-family: 'Quicksand', sans-serif;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 22px;
   outline: none;
   letter-spacing: 0;
   transition: 0.3s;
