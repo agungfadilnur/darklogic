@@ -210,17 +210,18 @@ span {
 }
 
 #hero img {
-  max-width: 95%;
+  max-width: 60%;
   margin-left: 17px;
   padding-left: 10px;
-  padding-top: 70px;
-  margin-bottom: 30px;
+  padding-top: 20px;
+  margin-bottom: 10px;
+  bottom: 20px;
 }
 
 #hero .hero-container {
   position: absolute;
   bottom: 0;
-  top: 120px;
+  top: 240px;
   left: 0;
   right: 0;
   display: flex;
@@ -1379,4 +1380,25 @@ body.mobile-nav-active #mobile-nav-toggle i {
 .footer .copyrights p a, .footer .copyrights .credits a {
   letter-spacing: 0;
   color: #71c55d;
+}
+
+.video-wrapper {
+  float: none;
+  clear: both;
+  width: 100%;
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0;
+  margin-bottom: 30px;
+  margin-right: 50px;
+  margin-left: 20px;
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 5;
+  width: 50%;
+  height: 50%;
 }
